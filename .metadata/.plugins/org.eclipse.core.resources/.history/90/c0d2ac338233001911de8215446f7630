@@ -1,0 +1,10 @@
+package com.crea.dev1.poo.common;
+
+public class Chaine {
+	private String phrase;
+	private Vector <String> mots;
+	
+	public Chaine(String phrase){}
+	public void extraireMots(){}
+	public void afficherMots(){}
+}

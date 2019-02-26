@@ -1,0 +1,23 @@
+package com.crea.dev1.poo.common;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Chaine {
+	private String phrase;
+	private ArrayList <String> mots;
+	
+
+	public Chaine(String phrase) {
+		super();
+		this.phrase = phrase;
+	}
+	
+	public void extraireMots(){
+		
+	}
+	
+	public void afficherMots(){
+		
+	}
+}

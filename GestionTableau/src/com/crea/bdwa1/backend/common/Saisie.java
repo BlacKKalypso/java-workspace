@@ -1,0 +1,42 @@
+package com.crea.bdwa1.backend.common;
+
+import java.io.*;
+public class Saisie {
+	//Méthodes
+	public static String lireChaine(String message){
+	 	String ligne = null;
+	 	try{
+	 		//conversion d'un flux binaire en un flux de caractères (caractères Unicode)
+	 		InputStreamReader isr = new InputStreamReader(System.in);
+	 		//construction d'un tampon pour optimiser la lecture du flux de caractères
+	 		BufferedReader br = new BufferedReader(isr);
+	 		System.out.print(message);
+	 		// lecture d'une ligne
+	 		ligne = br.readLine();
+	 	}
+	 	catch (IOException e){
+	 		System.err.println(e.getMessage());
+	 	}
+	 	return ligne;
+	 }// fin lireChaine
+	 public static int lireEntier(String message){
+	 	return Integer.parseInt(lireChaine(message));
+	 }
+	 public static double lireReel(String message){
+	 	return Double.parseDouble(lireChaine(message));
+	 }
+	 public static int[ ] lireTabInt() {
+		int [ ] tabDeInt = null;
+		int numberChiffre = Saisie.lireEntier("Combien d'entier voulez vous ajouter ? :");
+		tabDeInt = new int[numberChiffre];
+
+		for (int i=0 ; i< numberChiffre; i++){
+			int chiffre = Saisie.lireEntier("donner la valeur du chiffre "+ (i+1) +" :");
+			tabDeInt[i]=chiffre;
+		}
+		
+		return tabDeInt;
+
+	 }
+
+}

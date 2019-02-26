@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.crea.bdwa1.backend.common&apos; to &apos;GestionTableau/src&apos;&#x0A;- Original project: &apos;GestionNotesEtudiants&apos;&#x0A;- Destination element: &apos;GestionTableau/src&apos;&#x0A;- Original element: &apos;GestionNotesEtudiants/src/com.crea.bdwa1.backend.common&apos;" description="Copy package" destination="=GestionTableau/src" element1="/src&lt;com.crea.bdwa1.backend.common" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1525167322119" version="1.0"/>
+</session>

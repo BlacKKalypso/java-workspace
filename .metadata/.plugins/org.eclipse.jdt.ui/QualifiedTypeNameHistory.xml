@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclasses.Segment"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Compteur"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Personnel"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Individu"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.common.Saisie"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Notation"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Point"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Triangle"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.TriNombres"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Tableau"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.devclass.Phrase"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.Consultation"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.Patient"/>
+<fullyQualifiedTypeName name="com.crea.bdwa1.backend.ServiceCHU"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.crea.dev1.poo.common.Saisie"/>
+<fullyQualifiedTypeName name="com.crea.dev1.poo.devclasses.Chaine"/>
+</qualifiedTypeNameHistroy>

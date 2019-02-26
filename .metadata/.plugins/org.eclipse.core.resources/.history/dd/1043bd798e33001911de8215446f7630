@@ -1,0 +1,38 @@
+package com.crea.dev1.poo.common;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Chaine {
+	private String phrase;
+	private ArrayList <String> mots;
+	
+
+	/*Constructeurs*/
+	public Chaine(String phrase) {
+		super();
+		this.phrase = phrase;
+	}
+	
+	/*Getter & setter*/
+	
+	public String getPhrase() {
+		return phrase;
+	}
+
+
+
+	public void setPhrase(String phrase) {
+		this.phrase = phrase;
+	}
+
+
+
+	public void extraireMots(String separateurs){
+		StringTokenizer st = new StringTokenizer(this.phrase, sep)
+	}
+	
+	public void afficherMots(){
+		
+	}
+}

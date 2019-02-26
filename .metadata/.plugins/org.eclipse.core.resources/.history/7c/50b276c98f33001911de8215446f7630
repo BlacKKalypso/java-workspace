@@ -1,0 +1,15 @@
+package com.crea.dev1.poo.test;
+
+import com.crea.dev1.poo.common.Saisie;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String phrase = Saisie.lireChaine("Introduire une chaine à découper :");
+		String separateur = Saisie.lireChaine("Introduire les séparateurs");
+		Chaine ch = new Chaine(phrase);
+		
+	}
+
+}

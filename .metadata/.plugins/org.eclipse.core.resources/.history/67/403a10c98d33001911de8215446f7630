@@ -1,0 +1,39 @@
+package com.crea.dev1.poo.common;
+
+import java.util.Scanner;
+import java.util.Vector;
+
+public class Chaine {
+	private String phrase;
+	private Vector <String> mots;
+	
+	public String getPhrase() {
+		return phrase;
+	}
+	
+	public void setPhrase(String phrase) {
+		this.phrase = phrase;
+	}
+	
+	public Vector<String> getMots() {
+		return mots;
+	}
+	
+	public void setMots(Vector<String> mots) {
+		this.mots = mots;
+	}
+	
+	public Chaine(String phrase){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Entrez une phrase :");
+		phrase = sc.nextLine();
+	}
+	
+	public void extraireMots(){
+		
+	}
+	
+	public void afficherMots(){
+		
+	}
+}
